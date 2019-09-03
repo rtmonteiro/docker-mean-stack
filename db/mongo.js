@@ -1,0 +1,1 @@
+mongodb+srv://pc2Solve:pc2Solve@cluster0-wxwbq.gcp.mongodb.net/test?retryWrites=true&w=majority
