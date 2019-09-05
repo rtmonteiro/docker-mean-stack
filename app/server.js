@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 var routes = require('./api/routes/routes');
 routes(app);
 
+// IUPI
 // We'll leave the 404 to be handled by Nginx on the frontend
 // app.use(function(req, res) {
 //     res.status(404).send({url: req.originalUrl + ' not found'})
