@@ -25,3 +25,6 @@ routes(app);
 app.listen(port);
 
 console.log('Projects in Docker API server started at: ' + port);
+
+var a="hello world"
+console.log(a.toUpperCase)
