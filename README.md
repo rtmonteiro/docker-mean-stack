@@ -5,7 +5,7 @@ Uma aventura pelo mundo do docker e como implementar essa ferramenta com a mean 
 ## THE MEAN STACK
 - MongoDB
 - Node.js + Express.js
-- Angular.js (v8.0)
+- Angular.js (v1.6.9)
 
 (Nginx vai ser o responsável pelo Reverse Proxy e Web Server)
 
