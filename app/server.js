@@ -6,7 +6,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://172.17.0.2/Posts');
+mongoose.connect('mongodb+srv://pc2Solve:pc2Solve@cluster0-ttgrn.gcp.mongodb.net/test?retryWrites=true&w=majority');
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -16,7 +16,6 @@ app.use(bodyParser.json());
 var routes = require('./api/routes/routes');
 routes(app);
 
-// IUPI
 // We'll leave the 404 to be handled by Nginx on the frontend
 // app.use(function(req, res) {
 //   res.status(404).send({url: req.originalUrl + ' not found'})
@@ -25,6 +24,3 @@ routes(app);
 app.listen(port);
 
 console.log('Projects in Docker API server started at: ' + port);
-
-var a="hello world"
-console.log(a.toUpperCase)
